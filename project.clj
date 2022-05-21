@@ -5,7 +5,9 @@
             :url  "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [javax.servlet/servlet-api "2.5"]
-                 [ring "1.9.0"]]
+                 [ring "1.9.0"]
+                 [metosin/reitit "0.5.12"]
+                 [metosin/muuntaja "0.6.8"]]
   :main ^:skip-aot ring-demo.core
   :repl-options {:init-ns ring-demo.core}
   :target-path "target/%s"
