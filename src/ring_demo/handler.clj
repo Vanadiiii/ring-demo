@@ -4,7 +4,7 @@
 
 (defn send-string [_]
   {:status       200
-   :body         "oh the code again"
+   :body         "Welcome to ring-demo!"
    :content-type "text/html"})
 
 (defn create-user [{user :body-params}]
